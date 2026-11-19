@@ -45,7 +45,7 @@ Publish the website in Localhost.
 
 
 ## OUTPUT - SERVER SIDE:
-![alt text](<Screenshot (28).png>)
+
 ![alt text](<Screenshot (29).png>)
 ## OUTPUT - WEBPAGE:
 
