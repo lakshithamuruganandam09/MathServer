@@ -42,6 +42,7 @@ Render the result to the HTML template.
 Publish the website in Localhost.
 
 ## PROGRAM:
+```
 <html>
 <head>
 <title>Churn Rate</title>
@@ -63,11 +64,13 @@ Publish the website in Localhost.
 
         <label>ChurnRate:</label>
         <input type="number" value="{{churnrate}}"><br><br>
-    </form>
-</body>
 </form>
 
+</body>
+
 </html>
+
+```
 
 ## OUTPUT - SERVER SIDE:
 
