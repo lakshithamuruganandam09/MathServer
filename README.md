@@ -42,7 +42,32 @@ Render the result to the HTML template.
 Publish the website in Localhost.
 
 ## PROGRAM:
+<html>
+<head>
+<title>Churn Rate</title>
+</head>
+<body bgcolor="pink">
+<h1>Churn Rate Calculator</h1>
+<h2>Lakshitha M</h2>
+<h2>26018363</h2>
+<form method="POST">
+        {% csrf_token %}<br>
 
+     <label>Customerslost:</label>
+        <input type="number" name="lost" value="{{l}}"><br><br>
+
+        <label>InitialCustomers:</label>
+        <input type="number" name="initial" value="{{i}}"><br><br>
+
+        <input type="submit" value="Calculate"><br><br>
+
+        <label>ChurnRate:</label>
+        <input type="number" value="{{churnrate}}"><br><br>
+    </form>
+</body>
+</form>
+
+</html>
 
 ## OUTPUT - SERVER SIDE:
 
